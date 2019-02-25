@@ -1,0 +1,27 @@
+{
+  "name": "backend-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "node --require dotenv/config --require @babel/register src/index.js",
+    "webpack:production": "webpack --mode production",
+    "webpack:develop": "webpack --mode development"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "dotenv": "^6.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.16.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "browserslist": "> 0.25%, not dead"
+}
