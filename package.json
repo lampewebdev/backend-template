@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "develop": "node --require dotenv/config --require @babel/register src/index.js",
-    "webpack:production": "webpack --mode production",
-    "webpack:develop": "webpack --mode development"
+    "build:production": "webpack --mode production",
+    "build:develop": "webpack --mode development"
   },
   "dependencies": {},
   "devDependencies": {
