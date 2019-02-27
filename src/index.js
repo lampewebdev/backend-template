@@ -1,1 +1,3 @@
-console.log('hello world');
+import db from './db/index';
+
+db();
